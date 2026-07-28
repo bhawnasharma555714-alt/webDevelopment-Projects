@@ -16,7 +16,7 @@ function InputForm(props) {
                     onChange={function (event) {
                         props.setName(event.target.value)
                     }}
-                    placeholder="e.g. Ramesh" />
+                    placeholder="e.g. Your Name" />
             </div>
 
             <div className="form-group">

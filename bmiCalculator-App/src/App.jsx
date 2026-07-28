@@ -4,13 +4,7 @@ import BmiMeter from "./components/BmiMeter"
 import "./index.css"
 import { useState } from "react";
 
-// bmiResult={bmiResult}
-// setBmiResult={setBmiResult}
-// bmiCategory={bmiCategory}
-// setBmiCategory={setBmiCategory}
-
 function App() {
-    // const [varName, setVarName] = useState(initialValue);
     const [name, setName] = useState("")
     const [height, setHeight] = useState("")
     const [weight, setWeight] = useState("")
@@ -20,7 +14,6 @@ function App() {
 
     const [errors, setErrors] = useState({})
 
-    /* { name: Please enter name, height: Please enter valid height} */
     function getBmiCategory(bmi) {
         if (bmi < 18.5) {
             return "Underweight"
@@ -40,8 +33,6 @@ function App() {
         if(isValid == false){
             return;
         }
-
-        // console.log(typeof(height))
         let h = parseFloat(height) / 100;
         let w = parseFloat(weight);
 
@@ -76,10 +67,6 @@ function App() {
 
             </div>
             <InputForm
-                // user_name={name} user_set_name={setName}
-                // user_height={height}  user_set_height={setHeight}
-                // user_weight={weight}/> user_set_weight={setWeight}
-
                 name={name}
                 setName={setName}
                 height={height}
