@@ -15,7 +15,3 @@ This repository contains projects built while learning modern web development te
 ### QuickCart
 - React-based e-commerce interface.
 - Focused on reusable components and responsive UI.
-
-### Jobify
-- Full-stack MERN application.
-- Implemented authentication, REST APIs and MongoDB integration.
