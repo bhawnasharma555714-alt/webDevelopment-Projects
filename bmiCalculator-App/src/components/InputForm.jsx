@@ -21,7 +21,7 @@ function InputForm(props) {
 
             <div className="form-group">
                 <label htmlFor="height">Your Height (cm)</label>
-                <input type="text"
+                <input type="number"
                     onChange={function (event) {
                         props.setHeight(event.target.value)
                     }}
@@ -30,7 +30,7 @@ function InputForm(props) {
 
             <div className="form-group">
                 <label htmlFor="weight">Your Weight (kg)</label>
-                <input type="text"
+                <input type="number"
                     onChange={function (event) {
                         props.setWeight(event.target.value)
                     }}

@@ -70,9 +70,11 @@ function App() {
     }
     return (
         <div className="container">
-            <h1>My BMI Calculator</h1>
-            <p>Body Mass Index Health Checker</p>
+            <div class="app-header">
+                <h1>My BMI Calculator</h1>
+                <p>Body Mass Index Health Checker</p>
 
+            </div>
             <InputForm
                 // user_name={name} user_set_name={setName}
                 // user_height={height}  user_set_height={setHeight}
